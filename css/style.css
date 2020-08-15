@@ -1,0 +1,55 @@
+/*fonts*/
+@font-face {
+	font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'),
+       url('../fonts/roboto-v20-latin-regular.woff') format('woff');
+}
+@font-face {
+	font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v20-latin-500.woff2') format('woff2'),
+       url('../fonts/roboto-v20-latin-500.woff') format('woff');
+}
+@font-face {
+	font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v20-latin-700.woff2') format('woff2'),
+       url('../fonts/roboto-v20-latin-700.woff') format('woff');
+}
+
+/*general styles*/
+.body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 26px;
+	font-family: "Roboto", "Arial", sans-serif;
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding:0 !important;
+  border:0 !important;
+  height: 1px !important; 
+  width: 1px !important; 
+  overflow: hidden;
+}
