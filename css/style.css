@@ -1,42 +1,42 @@
 /*fonts*/
 @font-face {
-	font-display: swap;
+  font-display: swap;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'),
-       url('../fonts/roboto-v20-latin-regular.woff') format('woff');
+  url('../fonts/roboto-v20-latin-regular.woff') format('woff');
 }
 @font-face {
-	font-display: swap;
+  font-display: swap;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   src: url('../fonts/roboto-v20-latin-500.woff2') format('woff2'),
-       url('../fonts/roboto-v20-latin-500.woff') format('woff');
+  url('../fonts/roboto-v20-latin-500.woff') format('woff');
 }
 @font-face {
-	font-display: swap;
+  font-display: swap;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   src: url('../fonts/roboto-v20-latin-700.woff2') format('woff2'),
-       url('../fonts/roboto-v20-latin-700.woff') format('woff');
+  url('../fonts/roboto-v20-latin-700.woff') format('woff');
 }
 
 /*general styles*/
 .body {
-	margin: 0;
-	padding: 0;
-	font-size: 16px;
-	line-height: 26px;
-	font-family: "Roboto", "Arial", sans-serif;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Roboto", "Arial", sans-serif;
+  box-sizing: border-box;
 }
 *,
 *::before,
 *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 .container {
   max-width: 980px;
@@ -52,4 +52,45 @@
   height: 1px !important; 
   width: 1px !important; 
   overflow: hidden;
+}
+.client-menu {
+  display: flex;
+  align-items: center;
+}
+.logo-blog-page {
+  margin-right: auto;
+  text-decoration: none;
+}
+.toggel-btn {
+  cursor: pointer;
+  display: inline-block;
+  background: none;
+  border: none;
+  outline: none;
+}
+.mask-group {
+  position: relative;
+}
+.mask-group {
+  margin-top: 50px;
+}
+.mask-group-text {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.h3-blog-page {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 74px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF
+}
+.main-p-blog-page {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.4);
 }
