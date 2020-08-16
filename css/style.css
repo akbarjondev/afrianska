@@ -53,6 +53,8 @@
   width: 1px !important; 
   overflow: hidden;
 }
+
+/* general styles */
 .client-menu {
   display: flex;
   align-items: center;
@@ -93,4 +95,154 @@
   text-align: center;
   letter-spacing: 0.04em;
   color: rgba(255, 255, 255, 0.4);
+}
+
+/* CONTACTS-FOOTER */
+.contacts-footer {
+  background-color: #316099;
+  border-radius: 0px 200px 0px 0px;
+  margin-right: 100px;
+  color: #fff;
+}
+
+.footer-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 95px 100px 95px 0;
+}
+
+.footer-top-content h3 {
+  width: 330px;
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;  
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+
+.footer-top-content p {
+  padding: 0;
+  margin: 0;
+  width: 460px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-top-btn {
+  text-decoration: none;
+  display: inline-block;
+  background: #5A98D0;
+  border-radius: 10px;
+  padding: 15px 74px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+.footer-divider {
+  margin-right: 250px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+}
+
+.footer-bottom {
+  display: flex;
+  padding: 95px 100px 50px 0;
+}
+
+.footer-logo {
+  width: 190px;
+  height: 48px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.contacts-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 264px;
+}
+
+.contacts-list a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  margin-bottom: 25px;
+}
+
+.address::before {
+  content: "A.";
+  margin-right: 16px;
+  display: inline;
+}
+
+.address {
+  display: flex;
+}
+
+.phone::before {
+  content: "T.";
+  margin-right: 16px;
+}
+
+.email::before {
+  content: "E.";
+  margin-right: 16px;
+}
+
+.about-section {
+  margin-left: 100px;
+  margin-right: 80px;
+}
+
+.footer-bottom h4 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.about-us li {
+  margin-bottom: 16px;
+}
+
+.about-us {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.copyright {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.4);
+  padding: 0;
+  margin: 0;
+  padding-bottom: 64px;
 }
