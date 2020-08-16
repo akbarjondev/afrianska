@@ -53,9 +53,12 @@
   width: 1px !important; 
   overflow: hidden;
 }
+
+/*body*/
 .client-menu {
   display: flex;
   align-items: center;
+  margin-top: 40px;
 }
 .logo-blog-page {
   margin-right: auto;
@@ -69,25 +72,27 @@
   outline: none;
 }
 .mask-group {
-  position: relative;
+  background-image: url("../img/background-mask.png");
+  background-repeat: no-repeat;
 }
 .mask-group {
   margin-top: 50px;
 }
 .mask-group-text {
-  position: absolute;
-  top: 0;
-  right: 0;
+  padding: 50px 0;
 }
 .h3-blog-page {
+  margin: 0;
   font-weight: 500;
   font-size: 44px;
   line-height: 74px;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #FFFFFF
+  color: #ffffff;
 }
 .main-p-blog-page {
+  max-width: 780px;
+  margin: 0 auto;
   font-size: 20px;
   line-height: 30px;
   text-align: center;
