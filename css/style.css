@@ -54,7 +54,48 @@
   overflow: hidden;
 }
 
-
+/* general styles */
+.client-menu {
+  display: flex;
+  align-items: center;
+}
+.logo-blog-page {
+  margin-right: auto;
+  text-decoration: none;
+}
+.toggel-btn {
+  cursor: pointer;
+  display: inline-block;
+  background: none;
+  border: none;
+  outline: none;
+}
+.mask-group {
+  position: relative;
+}
+.mask-group {
+  margin-top: 50px;
+}
+.mask-group-text {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.h3-blog-page {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 74px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF
+}
+.main-p-blog-page {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.4);
+}
 
 /* CONTACTS-FOOTER */
 .contacts-footer {
