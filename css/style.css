@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'),
-  url('../fonts/roboto-v20-latin-regular.woff') format('woff');
+    url('../fonts/roboto-v20-latin-regular.woff') format('woff');
 }
 @font-face {
   font-display: swap;
@@ -13,7 +13,7 @@
   font-style: normal;
   font-weight: 500;
   src: url('../fonts/roboto-v20-latin-500.woff2') format('woff2'),
-  url('../fonts/roboto-v20-latin-500.woff') format('woff');
+    url('../fonts/roboto-v20-latin-500.woff') format('woff');
 }
 @font-face {
   font-display: swap;
@@ -21,7 +21,7 @@
   font-style: normal;
   font-weight: 700;
   src: url('../fonts/roboto-v20-latin-700.woff2') format('woff2'),
-  url('../fonts/roboto-v20-latin-700.woff') format('woff');
+    url('../fonts/roboto-v20-latin-700.woff') format('woff');
 }
 
 /*general styles*/
@@ -56,6 +56,10 @@
 
 /*BODY*/
 /*index-header*/
+.site-header {
+  background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%);
+  opacity: 0.2;
+}
 .client-menu {
   display: flex;
   align-items: center;
