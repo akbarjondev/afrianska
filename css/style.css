@@ -5,27 +5,27 @@
    font-family: 'Roboto';
    font-style: normal;
    font-weight: 400;
-   src: url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), url('../fonts/roboto-v20-latin-regular.woff') format('woff');
+   src: url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), 
+        url('../fonts/roboto-v20-latin-regular.woff') format('woff');
 }
-
 @font-face {
    font-display: swap;
    font-family: 'Roboto';
    font-style: normal;
    font-weight: 500;
-   src: url('../fonts/roboto-v20-latin-500.woff2') format('woff2'), url('../fonts/roboto-v20-latin-500.woff') format('woff');
+   src: url('../fonts/roboto-v20-latin-500.woff2') format('woff2'),
+        url('../fonts/roboto-v20-latin-500.woff') format('woff');
 }
-
 @font-face {
    font-display: swap;
    font-family: 'Roboto';
    font-style: normal;
    font-weight: 700;
-   src: url('../fonts/roboto-v20-latin-700.woff2') format('woff2'), url('../fonts/roboto-v20-latin-700.woff') format('woff');
+   src: url('../fonts/roboto-v20-latin-700.woff2') format('woff2'), 
+        url('../fonts/roboto-v20-latin-700.woff') format('woff');
 }
 
 /*general styles*/
-
 .body {
    margin: 0;
    padding: 0;
@@ -34,17 +34,16 @@
    font-family: "Roboto", "Arial", sans-serif;
    box-sizing: border-box;
 }
-
-*, *::before, *::after {
+*,
+*::before,
+*::after {
    box-sizing: inherit;
 }
-
 .container {
    max-width: 1200px;
    margin: 0 auto;
    padding: 0 4px;
 }
-
 .visually-hidden {
    position: absolute !important;
    clip: rect(1px 1px 1px 1px);
@@ -57,25 +56,20 @@
 }
 
 /*BODY*/
-
 /*index-header*/
-
 .site-header {
    background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%);
    height: 714px;
 }
-
 .site-navbar {
    display: flex;
    align-items: center;
    margin-top: 40px;
    margin-bottom: 46px;
 }
-
 .site-logo {
    margin-right: auto;
 }
-
 .toggel-btn {
    display: inline-block;
    background: none;
@@ -83,14 +77,12 @@
    outline: none;
    cursor: pointer;
 }
-
 .header-intro {
    position: relative;
    display: flex;
    align-items: center;
    margin-left: 114px;
 }
-
 .header-intro-text h1 {
    width: 605px;
    font-size: 64px;
@@ -98,7 +90,6 @@
    letter-spacing: 0.04em;
    color: #1F3F68;
 }
-
 .header-intro-text p {
    width: 425px;
    font-size: 16px;
@@ -108,7 +99,6 @@
    opacity: 0.6;
    margin-bottom: 70px;
 }
-
 .header-intro-text a {
    text-decoration: none;
    padding: 15px 50px;
@@ -120,32 +110,26 @@
    letter-spacing: 0.04em;
    color: #FFFFFF;
 }
-
 .header-intro-text a:hover {
    background: #4581b6;
    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.6);
 }
-
 .header-intro img {
    position: absolute;
    z-index: 1;
    right: 0;
    top: 5px;
 }
-
 .mask-group {
    background-image: url("../img/background-mask.png");
    background-repeat: no-repeat;
 }
-
 .mask-group {
    margin-top: 50px;
 }
-
 .mask-group-text {
    padding: 50px 0;
 }
-
 .h3-blog-page {
    margin: 0;
    font-weight: 500;
@@ -155,7 +139,6 @@
    letter-spacing: 0.04em;
    color: #ffffff;
 }
-
 .main-p-blog-page {
    max-width: 780px;
    margin: 0 auto;
@@ -167,22 +150,18 @@
 }
 
 /* contact-header */
-
 .header-top {
    margin-top: 40px;
    margin-bottom: 65px;
 }
-
 .header-top-box {
    display: flex;
    align-items: center;
    justify-content: space-between;
 }
-
 .img-blog-page, .toggel-btn-img {
    display: block;
 }
-
 .header-bottom {
    width: 100%;
    height: 250px;
@@ -192,24 +171,20 @@
    background-position: center center;
    background-size: cover;
 }
-
 .header-bottom-content {
    position: absolute;
    top: 180px;
    left: 50%;
    transform: translateX(-50%);
 }
-
 .header-bottom-heading {
    margin-top: 0;
    margin-bottom: 16px;
 }
-
 .header-bottom-text {
    max-width: 780px;
    margin: 0 auto;
 }
-
 /* contact-footer */
 
 .contacts-footer {
@@ -218,14 +193,12 @@
    border-radius: 0px 200px 0px 0px;
    color: #fff;
 }
-
 .footer-top {
    display: flex;
    align-items: center;
    justify-content: space-between;
    padding: 95px 100px 95px 0;
 }
-
 .footer-top-content h3 {
    width: 330px;
    padding: 0;
@@ -237,7 +210,6 @@
    letter-spacing: 0.05em;
    color: #FFFFFF;
 }
-
 .footer-top-content p {
    width: 460px;
    padding: 0;
@@ -247,7 +219,6 @@
    letter-spacing: 0.05em;
    color: rgba(255, 255, 255, 0.5);
 }
-
 .footer-top-btn {
    display: inline-block;
    padding: 15px 74px;
@@ -260,33 +231,28 @@
    color: #FFFFFF;
    border-radius: 10px;
 }
-
 .footer-divider {
    height: 2px;
    margin-right: 250px;
    background-color: rgba(255, 255, 255, 0.3);
    border: none;
 }
-
 .footer-bottom {
    display: flex;
    padding: 95px 100px 50px 0;
 }
-
 .footer-logo {
    display: inline-block;
    width: 190px;
    height: 48px;
    margin-bottom: 30px;
 }
-
 .contacts-list {
    width: 264px;
    padding: 0;
    margin: 0;
    list-style-type: none;
 }
-
 .contacts-list a {
    display: inline-block;
    margin-bottom: 25px;
@@ -296,32 +262,26 @@
    line-height: 26px;
    letter-spacing: 0.05em;
 }
-
 .address::before {
    content: "A.";
    display: inline;
    margin-right: 16px;
 }
-
 .address {
    display: flex;
 }
-
 .phone::before {
    content: "T.";
    margin-right: 16px;
 }
-
 .email::before {
    content: "E.";
    margin-right: 16px;
 }
-
 .about-section {
    margin-left: 100px;
    margin-right: 80px;
 }
-
 .footer-bottom h4 {
    margin: 0;
    padding: 0;
@@ -332,7 +292,6 @@
    letter-spacing: 0.05em;
    color: #FFFFFF;
 }
-
 .footer-bottom a {
    text-decoration: none;
    font-size: 16px;
@@ -340,17 +299,14 @@
    letter-spacing: 0.05em;
    color: #FFFFFF;
 }
-
 .about-us li {
    margin-bottom: 16px;
 }
-
 .about-us {
    list-style-type: none;
    padding: 0;
    margin: 0;
 }
-
 .copyright {
    margin: 0;
    padding: 0;
@@ -362,13 +318,11 @@
 }
 
 /* our_clients_with_footer */
-
 .our_clients_with_footer {
    background: #5A98D0;
    border-radius: 200px 0px 0px 0px;
    margin-left: auto;
    margin-right: auto;
-   /* padding-top: 96px; */
    width: 1366px;
    height: 1549px;
 }
@@ -413,29 +367,24 @@
    opacity: 0.6;
 }
 
-/* this is table of our client's logos  */
-
+/* our-clients  */
 .our_clients_table {
    margin: 0;
    padding: 0;
    border-collapse: collapse;
 }
-
 .first_line {
    border-bottom: 1px solid #9CC1E3;
 }
-
 .our_clients_logo {
    padding: 1px;
    width: 235px;
    height: 128px;
    border-right: 1px solid #9CC1E3;
 }
-
 .our_clients_logo:nth-child(4) {
    border: none;
 }
-
 .our_clients_logo_links {
    width: 100%;
    height: 100%;
@@ -449,7 +398,6 @@
    color: #F2F2F2;
    padding: 47px 42px;
 }
-
 .link_more_client {
    text-decoration: none;
    font-style: normal;
@@ -462,8 +410,7 @@
    background: #4E86BB;
 }
 
-/* MODAL SIDE */
-
+/* modal */
 .modal-section {
    display: none;
    position: fixed;
@@ -473,12 +420,10 @@
    bottom: 0;
    background: rgba(68, 81, 102, 0.24);
 }
-
 .modal-open {
    display: block;
    z-index: 10;
 }
-
 .modal-box {
    width: 819px;
    display: flex;
@@ -490,7 +435,6 @@
    margin-left: auto;
    margin-right: auto;
 }
-
 .modal-close-but {
    align-self: flex-end;
    background: none;
@@ -498,11 +442,9 @@
    outline: 0;
    margin: 15px;
 }
-
 .modal-close-but img:hover {
    opacity: 0.8;
 }
-
 .modal-text {
    width: 678px;
    margin-top: 0;
@@ -515,7 +457,6 @@
    text-align: center;
    color: #316099;
 }
-
 .modal-link {
    align-self: center;
    width: 170px;
@@ -533,7 +474,6 @@
    line-height: 28px;
    color: #FFFFFF;
 }
-
 .modal-link:hover {
    opacity: 0.9;
 }
