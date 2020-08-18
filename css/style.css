@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'),
-    url('../fonts/roboto-v20-latin-regular.woff') format('woff');
+  url('../fonts/roboto-v20-latin-regular.woff') format('woff');
 }
 @font-face {
   font-display: swap;
@@ -13,7 +13,7 @@
   font-style: normal;
   font-weight: 500;
   src: url('../fonts/roboto-v20-latin-500.woff2') format('woff2'),
-    url('../fonts/roboto-v20-latin-500.woff') format('woff');
+  url('../fonts/roboto-v20-latin-500.woff') format('woff');
 }
 @font-face {
   font-display: swap;
@@ -21,7 +21,7 @@
   font-style: normal;
   font-weight: 700;
   src: url('../fonts/roboto-v20-latin-700.woff2') format('woff2'),
-    url('../fonts/roboto-v20-latin-700.woff') format('woff');
+  url('../fonts/roboto-v20-latin-700.woff') format('woff');
 }
 
 /*general styles*/
@@ -39,9 +39,9 @@
   box-sizing: inherit;
 }
 .container {
-  max-width: 1200px;
+  max-width: 972px;
   margin: 0 auto;
-  padding: 0 4px;
+  padding: 0 16px;
 }
 .visually-hidden {
   position: absolute !important;
@@ -316,4 +316,159 @@
   line-height: 26px;
   letter-spacing: 0.05em;
   color: rgba(255, 255, 255, 0.4);
+}
+/* Contact body - Dildora */
+.contact-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 57px;
+}
+.contact-info-text{
+  width: 300px;
+  margin-top: 46px;
+}
+.contact-info-text h3{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 24px 0;
+}
+.contact-info-text p{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.6;
+  margin: 0;
+}
+.contact-numbers{
+  display: block;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.6;
+  text-decoration: none;
+  padding-bottom: 16px;
+}
+.contact-numbers::before{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/contact-phone.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 18px;
+  content:"";
+  transform: translateY(25%);
+}
+.contact-website, .contact-mailto{
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+  text-decoration: none;
+  padding-bottom: 16px;
+}
+.contact-website::before{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/contact-world.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 18px;
+  content:"";
+  transform: translateY(25%);
+}
+.contact-mailto::before{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/contact-email.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 18px;
+  content:"";
+  transform: translateY(25%);
+}
+.contact-us-form{
+  background: #FFFFFF;
+  box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  padding: 40px;
+}
+.contact-us-form label, .contact-us-form input, .contact-us-form textarea, .contact-us-form button{
+  display: block;
+}
+.contact-us-form p{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  padding: 16px 0;
+  text-transform: uppercase;
+}
+.contact-us-form label{
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.8;
+  margin-top: 24px;
+  padding: 8px 0;
+}
+.contact-us-form input{
+  width: 428px;
+  opacity: 0.4;
+  border: 1px solid #356EAD;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 21px 36px;
+}
+.contact-us-form input::placeholder, .contact-us-form textarea{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: rgb(31, 63, 104, 0.2);
+}
+.contact-us-form textarea{
+  min-width: 428px;
+  resize: vertical;
+  border: 1px solid rgba(53, 109, 173, 0.4);
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 21px 36px;
+}
+.contact-us-form button{
+  width: 428px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  background: #5A98D0;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border: none;
+  border-radius: 10px;
+  padding: 23px 0;
+  margin: 72px 0 16px 0;
+  text-transform: uppercase;
+}
+.contact-map{
+  width: 940px;
+  height: 480px;
+  margin: 96px 0;
 }
