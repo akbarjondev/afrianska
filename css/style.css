@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'),
-    url('../fonts/roboto-v20-latin-regular.woff') format('woff');
+  url('../fonts/roboto-v20-latin-regular.woff') format('woff');
 }
 @font-face {
   font-display: swap;
@@ -13,7 +13,7 @@
   font-style: normal;
   font-weight: 500;
   src: url('../fonts/roboto-v20-latin-500.woff2') format('woff2'),
-    url('../fonts/roboto-v20-latin-500.woff') format('woff');
+  url('../fonts/roboto-v20-latin-500.woff') format('woff');
 }
 @font-face {
   font-display: swap;
@@ -21,7 +21,7 @@
   font-style: normal;
   font-weight: 700;
   src: url('../fonts/roboto-v20-latin-700.woff2') format('woff2'),
-    url('../fonts/roboto-v20-latin-700.woff') format('woff');
+  url('../fonts/roboto-v20-latin-700.woff') format('woff');
 }
 
 /*general styles*/
@@ -316,4 +316,95 @@
   line-height: 26px;
   letter-spacing: 0.05em;
   color: rgba(255, 255, 255, 0.4);
+}
+/* our_clients_with_footer */
+.our_clients_with_footer{
+  
+  background: #5A98D0;
+  border-radius: 200px 0px 0px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-top: 96px; */
+  width: 1366px;
+  height: 1549px;
+}
+.our_clients{
+  padding: 96px 213px 125px 213px;
+  width: 1366px;
+  height: 670px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.our_clients_head_text{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* our clients texts */
+.our_clients_header{
+  margin: 0;
+  padding: 0;
+  width: 240px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+.our_clients_head_texting{
+  margin: 0;
+  padding: 0;
+  width: 540px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+/* this is table of our client's logos  */
+
+.our_clients_table{
+  margin: 0;
+  padding: 0;
+  border-collapse:collapse;
+}
+.first_line{
+  border-bottom:1px solid #9CC1E3;
+}
+.our_clients_logo{
+  padding: 1px;
+  width: 235px;
+  height: 128px;
+  border-right:1px solid #9CC1E3;
+}
+.our_clients_logo:nth-child(4){
+  border:none;
+}
+.our_clients_logo_links{
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 46px;
+  letter-spacing: 0.02em;
+  color: #F2F2F2;
+  padding:47px 42px;
+}
+.link_more_client{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 46px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  padding:50px 62px;
+  background: #4E86BB ;
+  
 }
