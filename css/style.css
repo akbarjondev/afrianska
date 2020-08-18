@@ -40,9 +40,9 @@
    box-sizing: inherit;
 }
 .container {
-   max-width: 1200px;
-   margin: 0 auto;
-   padding: 0 4px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 .visually-hidden {
    position: absolute !important;
@@ -326,7 +326,6 @@
    width: 1366px;
    height: 1549px;
 }
-
 .our_clients {
    padding: 96px 213px 125px 213px;
    width: 1366px;
@@ -335,7 +334,6 @@
    flex-direction: column;
    justify-content: space-between;
 }
-
 .our_clients_head_text {
    display: flex;
    justify-content: space-between;
@@ -343,7 +341,6 @@
 }
 
 /* our clients texts */
-
 .our_clients_header {
    margin: 0;
    padding: 0;
@@ -354,7 +351,6 @@
    letter-spacing: 0.05em;
    color: #FFFFFF;
 }
-
 .our_clients_head_texting {
    margin: 0;
    padding: 0;
