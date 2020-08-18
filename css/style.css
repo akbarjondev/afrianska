@@ -33,15 +33,15 @@
   font-family: "Roboto", "Arial", sans-serif;
   box-sizing: border-box;
 }
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
 .container {
   max-width: 980px;
   margin: 0 auto;
   padding: 0 20px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 .visually-hidden {
   position: absolute !important;
