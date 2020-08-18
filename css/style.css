@@ -269,3 +269,54 @@
   letter-spacing: 0.05em;
   color: rgba(255, 255, 255, 0.4);
 }
+
+/* ---------------------- */
+/* Our finished project */
+/* ---------------------- */
+.finished-project-top  {
+  display: flex;
+  align-items: center;
+  margin-top: 192px;
+  margin-bottom: 96px;
+}
+.finished-project-top h2 {
+  max-width: 230px;
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+.finished-project-top p {
+  max-width: 660px;
+  padding-left: 97px;
+  opacity: 0.6;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+
+
+.finished-project-middle  {
+ height: 417px;
+ background-image: url(../img/Group.png), url(../img/Rectangle.png), url(../img/room.png);
+ background-repeat: no-repeat;
+ background-position: left bottom;
+ border-radius: 15px;
+ padding-right: 52px;
+ padding-top: 48px;
+}
+.finished-project-middle h3 {
+  text-align: right;
+  margin: 0; 
+  font-size: 28px;
+  /* line-height: 46px; */
+  color: #FFFFFF;
+}
+.finished-project-middle p {
+  text-align: right;
+  margin: 0; 
+  padding-top: 8px;
+  line-height: 46px;
+  color: rgb(255, 255, 255, 0.8);
+}
