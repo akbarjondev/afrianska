@@ -197,8 +197,8 @@
 .footer-top{
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 95px 100px 95px 0;
+  margin-left: 130px;
 }
 .footer-top-content h3 {
   width: 330px;
@@ -231,6 +231,7 @@
   letter-spacing: 0.04em;
   color: #FFFFFF;
   border-radius: 10px;
+  margin-left: 160px;
 }
 .footer-divider {
   height: 2px;
@@ -241,6 +242,7 @@
 .footer-bottom {
   display: flex;
   padding: 95px 100px 50px 0;
+  margin-left: 130px;
 }
 .footer-logo {
   display: inline-block;
@@ -316,6 +318,7 @@
   line-height: 26px;
   letter-spacing: 0.05em;
   color: rgba(255, 255, 255, 0.4);
+  margin-left: 130px;
 }
 /* our_clients_with_footer */
 .our_clients_with_footer{
@@ -408,3 +411,232 @@
   background: #4E86BB ;
   
 }
+
+/* BLOG-PAGE */
+.main-container {
+  padding: 0px 100px;
+}
+.blog-search {
+  width: 100%;
+  padding: 15px;
+  background: #ececec;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-bottom: 50px;
+}
+
+.blog-search::placeholder {
+  content: "Search Article";
+  background-image:url(../img/ic_search_24px.svg);
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  padding-left: 50px;
+  display: flex;
+  padding-top: 3px;
+  font-size: 16px;
+  color: rgba(31, 63, 104, 0.6);
+}
+
+.popular-content {
+  width: 380px;
+}
+
+.popular-content h4 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.04em;
+  color: rgba(53, 110, 173, 0.8);
+}
+
+.popular-content h2 {
+  font-size: 47px;
+  line-height: 58px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+
+.popular-content p {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.popular-articles {
+  margin: 200px 0 50px 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.popular-articles-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.popular-articles li {
+  width: 300px;
+  margin-right: 40px;
+}
+
+.articles-inner:nth-child(3) {
+  margin-right: 0;
+}
+
+.articles-inner h3 {
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+
+.articles-inner p {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.popular-articles-list + p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #356EAD;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.all-articles {
+  display: flex;
+  flex-direction: column;
+}
+
+.all-articles h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.04em;
+  color: #356EAD;
+  opacity: 0.8;
+  text-transform: uppercase;
+}
+
+.all-articles-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.all-articles-inner {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.all-articles-inner::before {
+  content: "";
+  background-image: url(../img/Rectangle.png);
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.all-articles-content {
+  width: 540px;
+}
+
+.all-articles-content h3 {
+  margin: 0;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+
+.all-articles-content p {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0;
+}
+
+.author {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author p {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: rgba(30, 62, 102, 0.4);
+  font-weight: 500;
+  margin: 0;
+}
+
+p.name {
+  color: #1F3F68;
+  margin-bottom: 5px;
+}
+
+.baseline {
+  margin-right: 20px;
+}
+
+.all-articles-content .author {
+  padding: 20px 0 0 0;
+}
+
+.all-articles-content .author {
+  width: 300px;
+}
+
+.arrows {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.arrows p {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+  color: #356EAD;
+}
+
+.old-post::after {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/ic_arrow_forward_18px.svg);
+  width: 18px;
+  height: 18px;
+  margin-left: 10px;
+}
+
+.new-post::before {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/ic_arrow_back_18px.svg);
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+
+
+
+
