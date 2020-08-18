@@ -27,6 +27,7 @@
 /*general styles*/
 
 .body {
+<<<<<<< HEAD
    margin: 0;
    padding: 0;
    font-size: 16px;
@@ -45,6 +46,25 @@
    padding: 0 4px;
 }
 
+=======
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Roboto", "Arial", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+>>>>>>> 8d800681c47ab1dbca0527b3888c8b00b41497f2
 .visually-hidden {
    position: absolute !important;
    clip: rect(1px 1px 1px 1px);
