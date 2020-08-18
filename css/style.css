@@ -519,10 +519,14 @@
  /* Contact body - Dildora */
  .contact-info {
   display: flex;
-  flex-direction: column;
-  /*align-items: center;*/
+  align-items: center;
   justify-content: space-between;
-  /*margin-top: 57px;*/
+  margin-top: 57px;
+}
+.footer-contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 .contact-info-text {
   width: 300px;
