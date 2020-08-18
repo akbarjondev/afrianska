@@ -476,6 +476,7 @@
 
 .modal-open {
    display: block;
+   z-index: 10;
 }
 
 .modal-box {
