@@ -1075,3 +1075,177 @@ hr{
 }
 
 /*blog page article end*/
+/* BLOG-PAGE */
+.main-container {
+  /*padding: 0px 100px;*/
+}
+.blog-search {
+  width: 100%;
+  padding: 15px;
+  padding-left: 72px;
+  background: #ececec;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-bottom: 50px;
+}
+
+.blog-search::placeholder {
+  content: "Search Article";
+  background-image:url(../img/ic_search_24px.svg);
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  padding-left: 50px;
+  display: flex;
+  padding-top: 3px;
+  font-size: 16px;
+  color: rgba(31, 63, 104, 0.6);
+  background-position: center left 24px;
+}
+
+.popular-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular-content-inner {
+  width: 600px;
+}
+
+/*.popular-content::after {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/modern-house.jpg);
+  width: 800px;
+  height: 500px;
+  background-repeat: no-repeat;
+  margin-top: 70px;
+  margin-left: 50px;
+  flex-grow: 1;
+}*/
+
+.popular-content h4 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.04em;
+  color: rgba(53, 110, 173, 0.8);
+}
+
+.popular-content h2 {
+  font-size: 47px;
+  line-height: 58px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+
+.popular-content p {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 65px;
+}
+
+.popular-articles {
+  /*margin: -110px 0 50px 0;*/
+  /*border-bottom: 2px solid rgba(0, 0, 0, 0.2);*/
+}
+
+.popular-articles-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.popular-articles li {
+  width: 300px;
+}
+
+.popular-articles li:nth-child(2) {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.articles-inner::before {
+  content:"";
+  display: inline-block;
+  background-size: cover;
+  width: 300px;
+  height: 220px;
+}
+
+.articles-inner:nth-child(1)::before{
+  background-image: url(../img/pens.jpg);
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.articles-inner:nth-child(2)::before{
+  background-image: url(../img/china-cult.jpg);
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.articles-inner:nth-child(3)::before{
+  background-image: url(../img/programmer.jpg);
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.articles-inner h3 {
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+
+.articles-inner p {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.popular-articles-list + p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #356EAD;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.author {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author p {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: rgba(30, 62, 102, 0.4);
+  font-weight: 500;
+  margin: 0;
+}
+
+p.name {
+  color: #1F3F68;
+  margin-bottom: 5px;
+}
+
+.baseline {
+  margin-right: 20px;
+}
