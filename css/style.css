@@ -440,7 +440,23 @@
 }
 
 .popular-content {
-  width: 380px;
+  display: flex;
+}
+
+.popular-content-inner {
+  width: 600px;
+}
+
+.popular-content::after {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/modern-house.jpg);
+  width: 800px;
+  height: 500px;
+  background-repeat: no-repeat;
+  margin-top: 70px;
+  margin-left: 50px;
+  flex-grow: 1;
 }
 
 .popular-content h4 {
@@ -464,10 +480,11 @@
   line-height: 26px;
   letter-spacing: 0.04em;
   color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 65px;
 }
 
 .popular-articles {
-  margin: 200px 0 50px 0;
+  margin: -110px 0 50px 0;
   border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
 
@@ -485,6 +502,26 @@
 
 .articles-inner:nth-child(3) {
   margin-right: 0;
+}
+
+.articles-inner::before {
+  content:"";
+  display: inline-block;
+  background-size: cover;
+  width: 315px;
+  height: 220px;
+}
+
+.articles-inner:nth-child(1)::before{
+  background-image: url(../img/pens.jpg);
+}
+
+.articles-inner:nth-child(2)::before{
+  background-image: url(../img/china-cult.jpg);
+}
+
+.articles-inner:nth-child(3)::before{
+  background-image: url(../img/programmer.jpg);
 }
 
 .articles-inner h3 {
@@ -513,63 +550,8 @@
   margin-bottom: 20px;
 }
 
-.all-articles {
-  display: flex;
-  flex-direction: column;
-}
-
-.all-articles h4 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 23px;
-  letter-spacing: 0.04em;
-  color: #356EAD;
-  opacity: 0.8;
-  text-transform: uppercase;
-}
-
-.all-articles-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.all-articles-inner {
-  display: flex;
-  margin-bottom: 30px;
-}
-
-.all-articles-inner::before {
-  content: "";
-  background-image: url(../img/Rectangle.png);
-  width: 300px;
-  height: 200px;
-  display: inline-block;
-  margin-right: 20px;
-}
-
-.all-articles-content {
-  width: 540px;
-}
-
-.all-articles-content h3 {
-  margin: 0;
-  font-size: 28px;
-  line-height: 38px;
-  letter-spacing: 0.04em;
-  color: #1F3F68;
-}
-
-.all-articles-content p {
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: 0.04em;
-  color: rgba(0, 0, 0, 0.6);
-  margin: 0;
-}
-
 .author {
-  padding: 40px 0;
+  padding: 20px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -593,48 +575,6 @@ p.name {
   margin-right: 20px;
 }
 
-.all-articles-content .author {
-  padding: 20px 0 0 0;
-}
-
-.all-articles-content .author {
-  width: 300px;
-}
-
-.arrows {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 30px;
-  margin-bottom: 50px;
-}
-
-.arrows p {
-  display: flex;
-  align-items: center;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.04em;
-  color: #356EAD;
-}
-
-.old-post::after {
-  content: "";
-  display: inline-block;
-  background-image: url(../img/ic_arrow_forward_18px.svg);
-  width: 18px;
-  height: 18px;
-  margin-left: 10px;
-}
-
-.new-post::before {
-  content: "";
-  display: inline-block;
-  background-image: url(../img/ic_arrow_back_18px.svg);
-  width: 18px;
-  height: 18px;
-  margin-right: 10px;
-}
 
 
 
