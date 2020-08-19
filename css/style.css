@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'),
-  url('../fonts/roboto-v20-latin-regular.woff') format('woff');
+    url('../fonts/roboto-v20-latin-regular.woff') format('woff');
 }
 @font-face {
   font-display: swap;
@@ -13,7 +13,7 @@
   font-style: normal;
   font-weight: 500;
   src: url('../fonts/roboto-v20-latin-500.woff2') format('woff2'),
-  url('../fonts/roboto-v20-latin-500.woff') format('woff');
+    url('../fonts/roboto-v20-latin-500.woff') format('woff');
 }
 @font-face {
   font-display: swap;
@@ -21,7 +21,7 @@
   font-style: normal;
   font-weight: 700;
   src: url('../fonts/roboto-v20-latin-700.woff2') format('woff2'),
-  url('../fonts/roboto-v20-latin-700.woff') format('woff');
+    url('../fonts/roboto-v20-latin-700.woff') format('woff');
 }
 
 /*general styles*/
@@ -33,15 +33,15 @@
   font-family: "Roboto", "Arial", sans-serif;
   box-sizing: border-box;
 }
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
 .container {
   max-width: 980px;
   margin: 0 auto;
   padding: 0 20px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 .visually-hidden {
   position: absolute !important;
@@ -55,15 +55,20 @@
 }
 
 /*BODY*/
+
 /*index-header*/
-.client-menu {
+.site-header {
+  background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%);
+  height: 714px;
+}
+.site-navbar {
   display: flex;
   align-items: center;
   margin-top: 40px;
+  margin-bottom: 46px;
 }
-.logo-blog-page {
+.site-logo {
   margin-right: auto;
-  text-decoration: none;
 }
 .toggel-btn {
   display: inline-block;
@@ -71,6 +76,49 @@
   border: none;
   outline: none;
   cursor: pointer;
+}
+.header-intro {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 114px;
+}
+.header-intro-text h1 {
+  width: 605px;
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+.header-intro-text p {
+  width: 425px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+  margin-bottom: 70px;
+}
+.header-intro-text a {
+  text-decoration: none;
+  padding: 15px 50px;
+  background: #5A98D0;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+.header-intro-text a:hover {
+  background: #4581b6;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.6);
+}
+.header-intro img {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 5px;
 }
 .mask-group {
   background-image: url("../img/background-mask.png");
