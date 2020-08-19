@@ -422,3 +422,106 @@ hr{
   letter-spacing: 0.04em;
   color: #356EAD;
 }
+
+/* ---------------------- */
+/* Our finished project */
+/* ---------------------- */
+.finished-project {
+  margin: 192px 0px;
+}
+
+.finished-project-top  {
+  display: flex;
+  align-items: center;
+  margin-bottom: 96px;
+}
+
+.finished-project-top h2 {
+  max-width: 230px;
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+
+.finished-project-top p {
+  max-width: 660px;
+  padding-left: 97px;
+  opacity: 0.6;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+
+.finished-project-middle  {
+  height: 417px;
+  background-image: url(../img/Group.png), url(../img/background1.png), url(../img/room.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  border-radius: 10px;
+  padding-right: 52px;
+  padding-top: 48px;
+}
+
+.finished-project-middle h3 {
+  text-align: right;
+  margin: 0; 
+  font-size: 28px;
+  color: #FFFFFF;
+}
+
+.finished-project-middle p {
+  text-align: right;
+  margin: 0; 
+  padding-top: 8px;
+  line-height: 46px;
+  color: rgb(255, 255, 255, 0.8);
+}
+
+.finished-project-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  margin-top: 96px;
+}
+
+.finished-project-bottom h3 {
+  color: #fff;
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+.finished-project-bottom p {
+  color: #fff;
+  line-height: 46px;
+  opacity: 0.8;
+  margin: 0;
+}
+
+.fp-left-side {
+  height: 417px;
+  width: 422px;
+  background-image: url(../img/background2.png), url(../img/sparklite-app.png);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding-top: 24px;
+  padding-left: 32px;
+}
+
+.fp-right-side {
+  height: 417px;
+  width: 422px;
+  background-image: url(../img/background2.png), url(../img/car-renting-app.png);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding-top: 24px;
+  padding-left: 32px;
+}
+
+/* ---------------------- */
+/* END-OF-Our finished project */
+/* ---------------------- */
