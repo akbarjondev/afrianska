@@ -621,7 +621,7 @@
   /* modal */
 
   .modal-section {
-     display: none;
+     display: block;
      position: fixed;
      left: 0;
      top: 0;
@@ -629,7 +629,9 @@
      bottom: 0;
      background: rgba(68, 81, 102, 0.24);
   }
-
+  .modal-off {
+    display: none;
+  }
   .modal-open {
      display: block;
      z-index: 10;
